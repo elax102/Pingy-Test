@@ -1,0 +1,65 @@
+@import 'variables.scss';
+@import 'header.scss';
+@import 'login.scss';
+
+html,body{
+    margin: 0px;
+    background-color: $white;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+input,
+p,
+button{
+    font-family: roboto;
+    font-weight: 300;
+    color: $black;
+}
+
+button{
+    cursor: pointer;
+}
+
+.btn{
+    background-color: rgba(0,0,0,0);
+    border: 0px;
+    padding: 10px 20px;
+    transition: background-color $time, color $time;
+
+    &:hover{
+        color: #888;
+        transition: background-color $time, color $time;
+    }
+
+    &:focus{
+        outline: none;
+    }
+}
+
+.btn.btn-primary{
+    border: 1px solid $black;
+
+    &:hover{
+        background-color: $black;
+        color: #fff;
+    }
+}
+
+.btn.btn-black{
+    background-color: $black;
+    color: $white;
+
+    &:hover{
+        background-color: #616161;
+    }
+}
+
+.btn.btn-large{
+    padding: 15px 40px;
+}

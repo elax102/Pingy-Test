@@ -1,0 +1,26 @@
+header{
+    width: 100vw;
+    height: 70px;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    background-color: $white;
+
+    .header-content{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 5%;
+    }
+
+    .logo{
+        height: 40px;
+
+        img{
+            height: 100%;
+            width: auto;
+        }
+    }
+
+}

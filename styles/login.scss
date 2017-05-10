@@ -1,0 +1,21 @@
+.wrapper{
+    background-image: url('/assets/goodboye.jpeg');
+    background-size: cover;
+    background-position: center 70px;
+    background-repeat: no-repeat;
+    background-color: #eee;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+
+    .content{
+        display: flex;
+        align-items: center;
+        padding: 0px 5%;
+    }
+
+    h1{
+        margin: 0px;
+    }
+}
