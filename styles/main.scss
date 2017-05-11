@@ -16,10 +16,23 @@ h6,
 a,
 input,
 p,
-button{
+button,
+input{
     font-family: roboto;
     font-weight: 300;
     color: $black;
+}
+
+a{
+    text-decoration: none;
+
+    &:hover{
+        color: #616161;
+    }
+}
+
+.spooky-ghost{
+    display: none;
 }
 
 .logo-text{

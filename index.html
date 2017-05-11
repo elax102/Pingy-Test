@@ -7,6 +7,7 @@
         <meta name="viewport" content="width=device-width">
 
         <link rel="stylesheet" href="styles/main.css">
+        <!-- <link rel="stylesheet" href="styles/speechbubbles.css"> -->
     </head>
     <body>
         <header>
@@ -15,12 +16,25 @@
                     <img src="assets/viaggitextlogo3.png" alt="">
                 </div>
                 <div class="buttons">
-                    <button class="btn">LOG IN</button>
+                    <button id="login-btn" class="btn">LOG IN</button>
                     <button class="btn btn-primary">GET CONNECTED</button>
-                    </div>
 
-           </div>
+                    <div id="login-form" class="login">
+                       <form action="">
+                           <input type="text" placeholder="Username">
+                           <input type="password" placeholder="Password">
+                           <input type="submit" class="btn btn-black" value="Submit">
+                       </form>
+                       <div class="login-footer">
+                           <a href="#">Forgot Password?</a>
+                           <a href="#">Register</a>
+                       </div>
+                    </div>
+                </div>
+
+            </div>
         </header>
+
         <div class="wrapper wrapper-light">
             <div class="content">
                  <div class="cta">
@@ -35,7 +49,10 @@
 
             </div>
        </div>
-        <script src="scripts/main.js"></script>
+      <script
+      src="https://code.jquery.com/jquery-3.2.1.min.js"
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous"></script>
+      <script src="scripts/main.js"></script>
     </body>
 </html>
-
