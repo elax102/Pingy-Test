@@ -1,10 +1,4 @@
 .wrapper{
-    background-image: url('/assets/goodboye.jpeg');
-    background-size: cover;
-    background-position: center 70px;
-    background-repeat: no-repeat;
-    background-color: #eee;
-    width: 100vw;
     height: 100vh;
     display: flex;
     align-items: center;
@@ -17,5 +11,26 @@
 
     h1{
         margin: 0px;
+    }
+}
+
+.wrapper-light{
+    background-image: url('/assets/goodboye.jpeg');
+    background-size: cover;
+    background-position: center 70px;
+    background-repeat: no-repeat;
+    background-color: #eee;
+    width: 100vw;
+}
+
+.wrapper-dark{
+    background-image: url('/assets/smileguy.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #eee;
+    width: 100vw;
+    h1,p{
+        color: $white;
     }
 }
