@@ -1,6 +1,7 @@
 @import 'variables.scss';
 @import 'header.scss';
 @import 'login.scss';
+@import "dashboard.scss";
 
 html,body{
     margin: 0px;
@@ -36,7 +37,9 @@ a{
 }
 
 .logo-text{
-    font-family: montserrat;
+    font-family: montserrat, sans-serif;
+    font-weight: bold;
+    margin: 0px;
 }
 
 button{
