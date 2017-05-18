@@ -19,6 +19,7 @@ input,
 p,
 button,
 input{
+    font-family: 'Open Sans', sans-serif;
     font-family: roboto;
     font-weight: 300;
     color: $black;
@@ -91,4 +92,33 @@ button{
 
 .btn.btn-large{
     padding: 15px 40px;
+}
+
+// BOOTSTRAP
+
+.nav-pills .nav-item.show .nav-link, .nav-pills .nav-link.active{
+    background-color: rgba(1,1,1,0);
+    color: $black;
+}
+
+.bg-faded{
+    background-color: $white;
+}
+
+@media only screen and (min-width: 992px) {
+    .navbar-toggleable-md .navbar-collapse{
+        justify-content: flex-end;
+    }
+}
+
+.table td, .table th{
+    border: 0px;
+}
+
+.table-striped tbody tr:nth-of-type(odd){
+    background-color: rgba(0, 0, 0, 0.025);
+}
+
+.table thead{
+    border: 0px;
 }
